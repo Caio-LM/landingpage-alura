@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+:root {
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #c0c0c0;
+    --botao-azul: #167bf7;
+    --cor-de-fundo: #00030c;
+    --fonte-principal: 'Inter';
+
+
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.principal {
+    background-image: url(./Imagens/Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+
+.container__botao {
+    background-color: var(--botao-azul);
+    border-radius: 8px;
+    padding: 1em;
+    color: var(--branco-principal);
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+
+.botao_secundario {
+    background-color: transparent;
+    border: 2px solid var(--branco-principal);
+}
+
+.container__aviso {
+    font-size: 0.75em;
+    color: var(--cinza-secundario)
+}
+
+.container__titulo {
+    font-size: 1.75em;
+    font-weight: 700;
+}
+
+.container__imagem {
+    margin: 1em 0 2em 0;
+   
+}
+
+.container__caixa {
+    margin: 0 6em;
+}
+
+.secundario_imagem{
+    width: 80%;
+}
+
+
+.secundario {
+    align-items: center;
+    margin: 0 10em;
+}
+
+.container__descricao_subtitulo{
+    font-size: 3em;
+    font-weight: 700;
+    margin-bottom: 0.1em;
+}
+
+.container__descricao_texto{
+    color: var(--cinza-secundario);
+    font-weight: 400;
+}
+
+.terciario {
+    align-items: center;
+    margin: 0 7.5em;
+   
+}
+
+.terciario__botao {
+    padding: 1em;
+    text-decoration: none;
+    border-radius: 0.5em;
+    background-color: var(--botao-azul);
+    color: var(--branco-principal);
+    text-align: center;  
+    width: 20%;
+       
+}
+
+.container__terciario{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  
+}
+
+.quartenario {
+    align-items: center;
+    margin: 0 8.8em;
+   
+}
+
+.quinto__texto{
+    text-align: center;
+    font-size: 3em;
+    font-weight: 700;
+    margin-bottom: 0.1em;
+}
+
+.quinto__TV{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 339px;
+    height: 192px;
+}
+
+.quinto__flexbox{
+    display: flex;
+    justify-content: center;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 36px;
+    margin: 10em;
+    align-items: center;
+}
+  
+.cabecalho__imagem{
+    width: 102px;
+    height: 35.28px;
+   
+    
+}
+
+.cabecalho__flexbox{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 16px;
+}
+
